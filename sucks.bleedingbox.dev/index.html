@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="sucks." property="og:title" />
+	<meta content="things that suck" property="og:description" />
+	<meta content="https://sucks.bleedingbox.dev/" property="og:url" />
+	<meta content="#C10023" data-react-helmet="true" name="theme-color" />
+	<link rel="preload" href="normalize.css" as="style" />
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="preload" href="style.css" as="style" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<title>sucks.</title>
+</head>
+
+<body>
+	<h1 id="logo">
+		sucks(1)
+	</h1>
+
+	<div id="content">
+		<h3>
+			Here I will list things that I personally believe that suck, I'll try to bring sources whenever
+			needed.
+		</h3>
+		<ul>
+			<li>
+				glibc (<a href="https://www.etalabs.net/compare_libcs.html">bloated</a> <a
+					  href="https://en.wikipedia.org/wiki/C_standard_library">libc</a>) Anti-POSIX libc, breaks standards (Ironically enough, it's a standard due to GNU.)  and injects itself some of its functions into programs without programmer's intention making it non-crossplatform in many scenarios [alternative: <a href="https://musl.libc.org/">musl</a>]
+			</li>
+			<li>
+				systemd, bloated "init" (for Desktops, for Servers it's somewhat fine.), it has a huge attack surface, many tools that are useless to the average Desktop user. [Alternative: <a href="https://davmac.org/projects/dinit/">dinit</a> / <a href="https://github.com/OpenRC/openrc">OpenRC</a>]
+			</li>
+			<li>
+				Any Ubuntu/Debian-based distro, their packaging system involves keeping a decade old packages for the sake of "stability".
+			</li>
+			<li>
+				AI-Generated "art", it's simply not art, never will be.
+			</li>
+			<li>
+				Arch Linux, opposite of freedom, non-minimalistic, glibc-only as well systemd-only, aren't we supposed to have software freedom? [Alternative: <a href="https://gentoo.org/">Gentoo</a> / <a href="https://voidlinux.org/">Void Linux</a>]
+			</li>
+			<li>
+				GNU Automake, complicates the process of setting up projects rather than simplifying [Alternative: <a href="https://www.crufty.net/help/sjg/bmake.html">bmake</a>]
+		</ul>
+		<script src="./oneko.js"></script>
+	</div>
+</body>
+
+</html>
