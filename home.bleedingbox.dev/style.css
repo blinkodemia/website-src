@@ -1,0 +1,52 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  padding: 2rem;
+  color: #eeeeee;
+  background-color: #080808;
+  font-family: "JetBrains Mono", monospace;
+  font-style: italic;
+  text-align: left;
+  image-rendering: crisp-edges;
+  text-rendering: optimizeLegibility;
+}
+
+#logo {
+  font-size: 32px;
+  padding: 1rem;
+  color: #C10023;
+}
+
+a {
+  color: #C10023;
+}
+
+#warning {
+	color: #C10023;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  bottom: 0;
+}
+
+#info {
+  padding: 1rem;
+  background-color: #161616;
+}
+
+#blogs {
+  padding: 1rem;
+}
+
+#bar {
+  padding: 0.5rem;
+  background-color: #161616;
+  text-align: center;
+}
+
+#badges {
+	text-align: center;
+}
